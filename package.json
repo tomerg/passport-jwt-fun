@@ -11,11 +11,8 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "express-session": "^1.0.5",
-    "jsonwebtoken": "^6.2.0",
     "mongoose": "^4.4.14",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
-    "uuid": "^2.0.2"
   }
 }
