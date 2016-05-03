@@ -10,7 +10,7 @@ app.use(passport.initialize());
 mongoose.connect('mongodb://localhost/passportjwt');
 
 var LocalStrategy = require('passport-local').Strategy;
-
+p 
 app.get('/register', function (req, res) {
   res.sendFile(__dirname + '/register.html');
 });
