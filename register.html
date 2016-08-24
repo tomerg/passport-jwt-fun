@@ -29,6 +29,8 @@
       data: data,
       success: function (token) {
         // empty for now
+        var token = JSON.stringify(token);
+        localStorage['passport-jwt'] = token;
       }
     });
   });
